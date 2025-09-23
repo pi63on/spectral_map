@@ -53,23 +53,25 @@ d3.csv("data_cut.csv", (data) => {
         .data(data)
         .enter()
         .append("circle")
+
         .attr("cx", (d) => { return projection([+d.X, +d.Y])[0] })
         .attr("cy", (d) => { return projection([+d.X, +d.Y])[1] })
-        
+
         // radius of circle
         .attr("r", (d) => { return 2 })
         // id of each circle
         .attr("id", (d) => {return "s_"+d.video})
         // style
         .attr("stroke-width", 0)
-        .attr("fill", '#000000ff')
+        .attr("fill", '#ffffffff')
         .attr("fill-opacity", 1)
 
         .on("click", function(d){
             alert("hop klik");})
             // myPlayer.currentTime(d.video);})
-        // .on("mouseover", () => {
-        //     return tooltip.style("visibility", "visible");
+        // .on("mouseover", (d) => {
+        //     return d.attr("fill", "#ac4a4aff");
+        //     // return tooltip.style("visibility", "visible");
         // })
         // .on("mousemove", (d) => {
         //     tooltip.text('Time: ' + d.video);
