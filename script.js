@@ -1,5 +1,8 @@
 // alert(6);
 // window.print();
+let currentId = "kukula";
+
+//  demo red rect
 d3.select("body")
   .append("svg")
     .attr("width", 500)
@@ -21,12 +24,12 @@ d3.select("body")
         .translate([w/2,h/2])
         .scale(h*2000);
         
-        //Create SVG
+//Create SVG
 let svg = d3.select("#svganchor")
     .append("svg")
     .attr("width", w)
     .attr("height", h)
-        ;
+    ;
 
 // Add circles:
 d3.csv("data_cut.csv", (data) => {
@@ -66,29 +69,36 @@ d3.csv("data_cut.csv", (data) => {
         .attr("fill", '#ffffffff')
         .attr("fill-opacity", 1)
 
+        .on('mouseover', function (d, i) {
+            d3.select(this).transition()
+            .duration('200')
+            .attr("fill", "red");
+        })
+        .on('mouseout', function (d) {
+            d3.select(this).transition()
+            .duration('200')
+            .attr("fill", "white")
+        })
         .on("click", function(d){
-            alert("hop klik");})
+            alert("hop klik");
+            currentId = d3.select(this).id;
+            console.log(currentId);
+            })
             // myPlayer.currentTime(d.video);})
-        // .on("mouseover", (d) => {
-        //     return d.attr("fill", "#ac4a4aff");
-        //     // return tooltip.style("visibility", "visible");
-        // })
-        // .on("mousemove", (d) => {
-        //     tooltip.text('Time: ' + d.video);
-        //     return tooltip.style("top",
-        //         (d3.event.pageY - 10) + "px").style("left", (d3.event.pageX + 10) + "px");
-        // })
-
+        ;
     });
+
+Circelos = d3.selectAll("myCircles");
+console.log(Circelos)
 
 
 
     
-    setInterval(function() {
-        video_where = player.getCurrentTime() || 0;
-        video_where = Math.round(video_where,0)
-        video_where_2 = "s_" + video_where
-        svg.selectAll('circle').attr('fill','#053b87')
-        svg.select("#" + video_where_2).attr("fill", 'black')
-        svg.select("#" + video_where_2).attr("fill-opacity", 1)
-    }, 3000);
+    // setInterval(function() {
+    //     video_where = player.getCurrentTime() || 0;
+    //     video_where = Math.round(video_where,0)
+    //     video_where_2 = "s_" + video_where
+    //     svg.selectAll('circle').attr('fill','#053b87')
+    //     svg.select("#" + video_where_2).attr("fill", 'black')
+    //     svg.select("#" + video_where_2).attr("fill-opacity", 1)
+    // }, 3000);
