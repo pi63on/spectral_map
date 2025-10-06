@@ -14,8 +14,8 @@ p {
 #grid-container{
     display: grid;
 
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
 
     grid-template-columns: auto;
     justify-content: space-around;
@@ -43,9 +43,6 @@ img{
     height: 100%;
 }
 
-#cir2{
-    fill: red;
-}
 
 svg{
     margin-right: 50px;
