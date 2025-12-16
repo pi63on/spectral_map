@@ -1,5 +1,6 @@
 * {
     background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #intro-text{
     color: white;
@@ -7,6 +8,18 @@
     margin-left: 1em;
     margin-bottom: 1em;
     margin-top: 1em;
+}
+.st17{
+    font-style: italic;
+}
+.btn {
+    cursor: pointer;
+}
+.btn:hover{
+    text-decoration: underline;
+}
+#mapaDiv{
+    display: none;
 }
 p {
     color: white;

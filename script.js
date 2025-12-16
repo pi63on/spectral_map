@@ -2,6 +2,14 @@
 let w = 0.5 * window.innerWidth;
 let h = 0.9 * window.innerHeight;
 
+let currentId = 0;
+let currentSeries = 'm3';
+
+let lastId = 0;
+let lastSeries = 'm3';
+
+let selfAnimation = 0;
+
 // Projection
 let projection = d3.geo.mercator()
 .center([17.118795537867648 , 48.124901925367645])
@@ -89,10 +97,9 @@ svg
         .attr("fill", "white");
     })
     .on("click", function(d, i){
-        document.getElementById('img-spectrum').src = 'm2/spectra_evals/' + i + '_eval_spectrum.png'
-        document.getElementById('img-photo').src = 'm2/photos/' + i + '_photo.jpg';
-        document.getElementById('annotation-text').innerHTML = 'M2 #' + i + ': ' + d.txt;
-
+        currentId = i;
+        currentSeries = 'm2';
+        selfAnimation = 0;
         })
     ; 
 })
@@ -127,13 +134,12 @@ svg
         d3.select(this).transition()
         .duration('200')
         .attr("r", 2)
-        .attr("fill", "white");
+        .attr("fill", "blue");
     })
     .on("click", function(d, i){
-        document.getElementById('img-spectrum').src = 'm3/spectra_evals/' + i + '_eval_spectrum.png'
-        document.getElementById('img-photo').src = 'm3/photos/' + i + '_photo.jpg';
-        document.getElementById('annotation-text').innerHTML = 'M3 #' + i + ': ' + d.txt;
-
+        currentId = i;
+        currentSeries = 'm3';
+        selfAnimation = 0;
         })
     ; 
-})
+});
