@@ -7,14 +7,14 @@ function hideSplash() {
         x.style.display = "none";
     }
 
-    let mapa = document.getElementById("mapaDiv");
-    console.log(mapa.style.display);
-    console.log('none' == (mapa.style.display))
+  // let mapa = document.getElementById("mapaDiv");
+  // console.log(mapa.style.display);
+  // console.log('none' == (mapa.style.display))
 
-  if (mapa.style.display == "none") {
-    console.log('here');
-    mapa.style.display = "block";
-  } else {
-    mapa.style.display = "none";
-  }
+  // if (mapa.style.display == "none") {
+  //   console.log('here');
+  //   mapa.style.display = "block";
+  // } else {
+  //   mapa.style.display = "none";
+  // }
 } 

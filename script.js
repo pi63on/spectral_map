@@ -134,7 +134,7 @@ svg
         d3.select(this).transition()
         .duration('200')
         .attr("r", 2)
-        .attr("fill", "blue");
+        .attr("fill", "white");
     })
     .on("click", function(d, i){
         currentId = i;

@@ -24,7 +24,7 @@ function draw() {
         document.getElementById(lastSeries + "cir" + lastId).style.fill = 'white';
     }
     
-    document.getElementById('img-spectrum').src = currentSeries + '/spectra_evals/' + currentId + '_eval_spectrum.png';
+    document.getElementById('img-spectrum').src = currentSeries + '/spektra_evals_color/' + currentId + '_eval_spectrum.png';
     document.getElementById('img-photo').src = currentSeries + '/photos_compressed/' + currentId + '_photo.jpg';
     // document.getElementById('annotation-text').innerHTML = 'M3 #' + currentId + ': ' + d.txt;
     document.getElementById(currentSeries + "cir" + currentId).style.fill = 'orange';
