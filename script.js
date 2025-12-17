@@ -2,8 +2,8 @@
 let w = 0.5 * window.innerWidth;
 let h = 0.9 * window.innerHeight;
 
-let currentIndex = 0;
-let currentId = 0;
+// let currentIndex = 0;
+let currentId = 10;
 let currentSeries = 'm3';
 
 let lastId = 0;
@@ -414,9 +414,9 @@ function draw() {
 
 function keyPressed(){
     // console.log(currentSeries, currentId);
-  if (key == ' '){
-    selfAnimation = !selfAnimation;
-  }
+//   if (key == ' '){
+//     selfAnimation = !selfAnimation;
+//   }
   if (key == 'f') {
     // console.log('fis');
     let fs = fullscreen();
