@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;opacity:0.5;}
+	.st1{display:inline;fill:#FFFFFF;}
+	.st2{fill:#FFFFFF;}
+	.st3{font-family:'ArialMT';}
+	.st4{font-size:30.4812px;}
+	.st5{fill:none;}
+	.st6{font-size:16px;}
+	.st7{stroke:#FFFFFF;stroke-linejoin:round;}
+	.st8{fill:url(#SVGID_1_);stroke:#FFFFFF;stroke-linejoin:round;}
+	.st9{fill:none;stroke:#FFFFFF;}
+	.st10{font-size:25.0959px;}
+	.st11{font-size:12.4564px;}
+	.st12{font-family:'Arial-ItalicMT';}
+	.st13{font-size:14px;}
+	.st14{clip-path:url(#SVGID_5_);}
+	.st15{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st16{clip-path:url(#SVGID_7_);}
+	.st17{font-size:18.8331px;}
+	.st18{font-size:28.2498px;}
+	.st19{fill:#D9D9D9;}
+	.st20{font-size:20.9257px;}
+</style>
+<g id="main">
+	<g id="bg">
+		<rect width="1920" height="1080"/>
+	</g>
+	<g id="hranice" class="st0">
+		<path class="st1" d="M1907,11.9v1056.3H12.9V11.9H1907 M1909.1,9.7H10.8v1060.6h1898.3L1909.1,9.7L1909.1,9.7z"/>
+	</g>
+	<text id="title1" transform="matrix(0.9833 0 0 1 42.3223 48.7529)" class="st2 st3 st4">Spektrálna mapa osvetlenia</text>
+	<text id="title2" transform="matrix(0.9833 0 0 1 42.3223 79.0391)" class="st2 st3 st4">Spectral Map of Street Lighting</text>
+</g>
+<rect x="42.3" y="142.3" class="st5" width="1427.6" height="123.9"/>
+<text transform="matrix(0.9833 0 0 1 42.2998 153.7559)"><tspan x="0" y="0" class="st2 st3 st6">Webová stránka mapuje pouličné osvetlenie v Petržalke na okruhu od Farského - Chorvátske r. I. - Park obetí hraničiarov a po Pankúchovú. Body na mape sú projektované podľa ich geografických </tspan><tspan x="0" y="19.2" class="st2 st3 st6">koordinátov.</tspan><tspan x="0" y="44.4" class="st2 st3 st6">Každý bod zaznamenáva jeden zdroj svetla v danej lokalite, či už nové LED lampy, reklamné tabule alebo sodíkové výbojky. Spolu s fotkou osvetleného prostredia je dokumentovaný aj spektrogram </tspan><tspan x="0" y="63.6" class="st2 st3 st6">svetelného zdroju. Meria sa pritom intenzita svetla(a širšieho EM žiarenia) pre vlnové dĺžky od približne 300 do 900 nanometrov. Pre naše oko sú viditeľné vlnové dĺžky v rozsahu zhruba 400 - 700 nm.</tspan></text>
+<g>
+	<g>
+		<rect x="42.3" y="285.9" class="st7" width="746.1" height="80.3"/>
+		
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1.0648" y1="3.3445" x2="2.3104" y2="3.3445" gradientTransform="matrix(599 0 0 64 -595.5 112)">
+			<stop  offset="0" style="stop-color:#020005"/>
+			<stop  offset="1.350000e-02" style="stop-color:#020006"/>
+			<stop  offset="2.700000e-02" style="stop-color:#030008"/>
+			<stop  offset="4.050000e-02" style="stop-color:#04000A"/>
+			<stop  offset="5.410000e-02" style="stop-color:#06000D"/>
+			<stop  offset="6.760000e-02" style="stop-color:#080110"/>
+			<stop  offset="8.110001e-02" style="stop-color:#0C0117"/>
+			<stop  offset="9.460000e-02" style="stop-color:#11021F"/>
+			<stop  offset="0.1081" style="stop-color:#17032A"/>
+			<stop  offset="0.1216" style="stop-color:#1F053A"/>
+			<stop  offset="0.1351" style="stop-color:#25084B"/>
+			<stop  offset="0.1486" style="stop-color:#290A5C"/>
+			<stop  offset="0.1622" style="stop-color:#2B0E6F"/>
+			<stop  offset="0.1757" style="stop-color:#291380"/>
+			<stop  offset="0.1892" style="stop-color:#1F237B"/>
+			<stop  offset="0.2027" style="stop-color:#132E74"/>
+			<stop  offset="0.2162" style="stop-color:#09376C"/>
+			<stop  offset="0.2297" style="stop-color:#0A3E66"/>
+			<stop  offset="0.2432" style="stop-color:#0C4667"/>
+			<stop  offset="0.2568" style="stop-color:#0E4F6A"/>
+			<stop  offset="0.2703" style="stop-color:#10596C"/>
+			<stop  offset="0.2838" style="stop-color:#11636D"/>
+			<stop  offset="0.2973" style="stop-color:#146E6F"/>
+			<stop  offset="0.3108" style="stop-color:#177970"/>
+			<stop  offset="0.3243" style="stop-color:#178672"/>
+			<stop  offset="0.3378" style="stop-color:#1A9574"/>
+			<stop  offset="0.3514" style="stop-color:#1DA375"/>
+			<stop  offset="0.3649" style="stop-color:#1DB273"/>
+			<stop  offset="0.3784" style="stop-color:#20C070"/>
+			<stop  offset="0.3919" style="stop-color:#22CB6B"/>
+			<stop  offset="0.4054" style="stop-color:#21D662"/>
+			<stop  offset="0.4189" style="stop-color:#23E054"/>
+			<stop  offset="0.4324" style="stop-color:#36E842"/>
+			<stop  offset="0.4459" style="stop-color:#50ED28"/>
+			<stop  offset="0.4595" style="stop-color:#73EB22"/>
+			<stop  offset="0.473" style="stop-color:#8FE722"/>
+			<stop  offset="0.4865" style="stop-color:#A5E221"/>
+			<stop  offset="0.5" style="stop-color:#B9DC22"/>
+			<stop  offset="0.5135" style="stop-color:#CBD621"/>
+			<stop  offset="0.527" style="stop-color:#DCCE20"/>
+			<stop  offset="0.5405" style="stop-color:#ECC420"/>
+			<stop  offset="0.5541" style="stop-color:#F2B735"/>
+			<stop  offset="0.5676" style="stop-color:#F5AB42"/>
+			<stop  offset="0.5811" style="stop-color:#F69F49"/>
+			<stop  offset="0.5946" style="stop-color:#F7944B"/>
+			<stop  offset="0.6081" style="stop-color:#F98848"/>
+			<stop  offset="0.6216" style="stop-color:#FA7B42"/>
+			<stop  offset="0.6351" style="stop-color:#FB6C39"/>
+			<stop  offset="0.6486" style="stop-color:#FD5B2E"/>
+			<stop  offset="0.6622" style="stop-color:#FC471F"/>
+			<stop  offset="0.6757" style="stop-color:#F7300F"/>
+			<stop  offset="0.6892" style="stop-color:#EA220D"/>
+			<stop  offset="0.7027" style="stop-color:#D42215"/>
+			<stop  offset="0.7162" style="stop-color:#BF2318"/>
+			<stop  offset="0.7297" style="stop-color:#A92309"/>
+			<stop  offset="0.7432" style="stop-color:#981F07"/>
+			<stop  offset="0.7568" style="stop-color:#871B06"/>
+			<stop  offset="0.7703" style="stop-color:#771805"/>
+			<stop  offset="0.7838" style="stop-color:#671504"/>
+			<stop  offset="0.7973" style="stop-color:#591303"/>
+			<stop  offset="0.8108" style="stop-color:#4D1103"/>
+			<stop  offset="0.8243" style="stop-color:#420E02"/>
+			<stop  offset="0.8378" style="stop-color:#370C01"/>
+			<stop  offset="0.8514" style="stop-color:#2E0A01"/>
+			<stop  offset="0.8649" style="stop-color:#270801"/>
+			<stop  offset="0.8784" style="stop-color:#210600"/>
+			<stop  offset="0.8919" style="stop-color:#1E0400"/>
+			<stop  offset="0.9054" style="stop-color:#1A0300"/>
+			<stop  offset="0.9189" style="stop-color:#170200"/>
+			<stop  offset="0.9324" style="stop-color:#130100"/>
+			<stop  offset="0.9459" style="stop-color:#100100"/>
+			<stop  offset="0.9595" style="stop-color:#0C0100"/>
+			<stop  offset="0.973" style="stop-color:#080100"/>
+			<stop  offset="0.9865" style="stop-color:#060100"/>
+			<stop  offset="1" style="stop-color:#040100"/>
+		</linearGradient>
+		<rect x="42.3" y="285.9" class="st8" width="746.1" height="80.3"/>
+		<path class="st9" d="M42.3,232v48.9 M184.3,280.8V232 M274,232v48.9 M423.5,280.8V232 M468.3,232v48.9 M528.2,280.8V232
+			 M789.7,232v48.9"/>
+	</g>
+	<g>
+		<text transform="matrix(0.9927 0 0 1 650.0928 265.5537)" class="st2 st3 st10">R</text>
+		<text transform="matrix(0.9927 0 0 1 489.2842 265.416)" class="st2 st3 st10">O</text>
+		<text transform="matrix(0.9927 0 0 1 431.8818 265.5537)" class="st2 st3 st10">Y</text>
+		<text transform="matrix(0.9927 0 0 1 340.1421 265.416)" class="st2 st3 st10">G</text>
+		<text transform="matrix(0.9927 0 0 1 221.2178 265.5537)" class="st2 st3 st10">B</text>
+		<text transform="matrix(0.9927 0 0 1 105.709 265.5537)" class="st2 st3 st10">V</text>
+		<g transform="rotate(-90)">
+			<text transform="matrix(1.0073 0 0 1 -266.7617 56.2939)" class="st2 st3 st11">380</text>
+			<text transform="matrix(1.0073 0 0 1 -266.7373 180.4604)" class="st2 st3 st11">450</text>
+			<text transform="matrix(1.0073 0 0 1 -266.7744 270.147)" class="st2 st3 st11">495</text>
+			<text transform="matrix(1.0073 0 0 1 -266.7871 419.625)" class="st2 st3 st11">570</text>
+			<text transform="matrix(1.0073 0 0 1 -266.7871 464.4678)" class="st2 st3 st11">590</text>
+			<text transform="matrix(1.0073 0 0 1 -266.8369 524.2598)" class="st2 st3 st11">620</text>
+			<text transform="matrix(1.0073 0 0 1 -266.8506 785.8457)" class="st2 st3 st11">750</text>
+		</g>
+	</g>
+</g>
+<rect x="795.8" y="333.4" class="st5" width="682.2" height="32.2"/>
+<text transform="matrix(0.9927 0 0 1 795.7793 344.8916)" class="st2 st12 st13">obr. 1, sRGB rendering spektra viditeľného svetla (By Gringer - Own work, Public Domain, </text>
+<text transform="matrix(0.9927 0 0 1 795.7793 364.1895)" class="st2 st12 st13">https://commons.wikimedia.org/w/index.php?curid=4639774)</text>
+<rect x="42.3" y="709.2" class="st5" width="1427.6" height="16.9"/>
+<text transform="matrix(0.9833 0 0 1 42.2998 720.6434)" class="st2 st3 st6">Sodíkové výbojky sú typické pre svoje farebné spektrum. Sodíkové výpary emitujú veľmi intenzívne svetlo pri dvoch dotýkajúcich sa oranžových vrcholoch, s 589.0 a 589.6 nanometrami.</text>
+<g>
+	<g>
+		<g>
+			<g>
+				<defs>
+					<rect id="SVGID_3_" x="42.3" y="492.2" width="311.4" height="199.4"/>
+				</defs>
+				<clipPath id="SVGID_5_">
+					<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+				</clipPath>
+				<g transform="matrix(1 0 0 1 0 -6.103516e-05)" class="st14">
+					
+						<image style="overflow:visible;enable-background:new    ;" width="253" height="398" xlink:href="89BC285A.jpg"  transform="matrix(4.826333e-17 -0.7882 0.7824 4.790818e-17 42.3226 691.5695)">
+					</image>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<rect id="SVGID_2_" x="42.3" y="492.2" class="st15" width="311.4" height="199.4"/>
+	</g>
+</g>
+<g>
+	<g>
+		<g>
+			<g>
+				<defs>
+					<rect id="SVGID_6_" x="497.8" y="492.2" width="352.1" height="199.4"/>
+				</defs>
+				<clipPath id="SVGID_7_">
+					<use xlink:href="#SVGID_6_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st16">
+					
+						<image style="overflow:visible;enable-background:new    ;" width="262" height="466" xlink:href="89BC285B.jpg"  transform="matrix(4.660393e-17 -0.7611 0.7555 4.626104e-17 497.8229 691.5695)">
+					</image>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<rect id="SVGID_4_" x="497.8" y="492.2" class="st9" width="352.1" height="199.4"/>
+	</g>
+</g>
+<rect x="358.2" y="655.6" class="st5" width="149.2" height="36"/>
+<g>
+	<text transform="matrix(0.9927 0 0 1 358.2344 667.0513)" class="st2 st12 st13">obr. 2, spektrum </text>
+</g>
+<g>
+	<text transform="matrix(0.9927 0 0 1 358.2344 686.3481)" class="st2 st12 st13">slnka na poludnie</text>
+</g>
+<rect x="857.5" y="655.2" class="st5" width="158.3" height="36"/>
+<g>
+	<text transform="matrix(0.9927 0 0 1 857.5742 666.6353)" class="st2 st12 st13">obr. 3, spektrum </text>
+</g>
+<g>
+	<text transform="matrix(0.9927 0 0 1 857.5742 685.9321)" class="st2 st12 st13">zapadajúceho slnka</text>
+</g>
+<rect x="1006.2" y="625.1" class="st5" width="444.1" height="66"/>
+<g>
+	<text transform="matrix(0.9927 0 0 1 1006.2617 666.6353)" class="st2 st12 st13">(z ‘A CD Spectrometer’, Jerry Xiaojin Zhu, </text>
+</g>
+<g>
+	<text transform="matrix(0.9927 0 0 1 1006.2617 685.9321)" class="st2 st12 st13">https://www.cs.cmu.edu/~zhuxj/astro/html/spectrometer.html)</text>
+</g>
+<g>
+	<rect x="42.3" y="382.6" class="st5" width="1427.6" height="101.5"/>
+	<text transform="matrix(0.9833 0 0 1 42.2998 394.0526)"><tspan x="0" y="0" class="st2 st3 st6">Monochromatické, teda jednofarebné svetlo, je elektromagnetické žiarenie, ktoré pozostáva z čisto jednej vlnovej dĺžky - teda jednej sínusoidy oscilujúcej nekonečne v čase. V praxi je to však </tspan><tspan x="0" y="19.2" class="st2 st3 st6">nedosiahnuteľné iba do nejakej roviny a najviac sa tomu približujú lasere, ktoré sa začali vyvíjať od 50tych rokov a ich cena sa vie pri lepších kusoch vyšplhať na niekoľko 100 000 EUR. </tspan><tspan x="0" y="44.4" class="st2 st3 st6">Biele svetlo pozostáva z viacerých farieb svetla (teda vlnových dĺžok) s porovnateľnou intenzitou, ktoré sa v našom oku na základe princípu aditívneho miešania farieb dokopy javia ako biele. Avšak nie je </tspan><tspan x="0" y="63.6" class="st2 st3 st6">biele svetlo ako biele svetlo, hovoríme o napr. teplom a studenom svetle. Pre ilustráciu, spektrum slnka na poľudnie (teplé biele svetlo) a pri západe (oranžovo-červené). Je vidieť, že pri zapadajúcom slnku </tspan><tspan x="0" y="82.8" class="st2 st3 st6">sú modré a fialové časti svetla výrazne menej intenzívne.</tspan></text>
+</g>
+<rect x="1674.3" y="353.2" class="st5" width="223" height="69.9"/>
+<text transform="matrix(0.9833 0 0 1 1674.2998 366.6846)"><tspan x="0" y="0" class="st3 st17">Lorem ipsum dolor sit </tspan><tspan x="0" y="22.6" class="st3 st17">amet, consectetuer adip</tspan><tspan x="201" y="22.6" class="st3 st17">-</tspan><tspan x="0" y="45.2" class="st3 st17">iscing elit, sed diam </tspan></text>
+<text transform="matrix(0.9833 0 0 1 1729.4961 366.6455)" class="st2 st3 st17">vyber body na mape </text>
+<text transform="matrix(0.9833 0 0 1 1690.3604 389.2456)" class="st2 st3 st17">myškou alebo ich naviguj </text>
+<text transform="matrix(0.9833 0 0 1 1735.6904 411.8457)" class="st2 st3 st17">klávesovími šípkam</text>
+<g>
+	<text transform="matrix(0.9833 0 0 1 1680.4414 1004.334)" class="st2 st3 st17">Alex P., VŠVU/AFAD 2025</text>
+	<text transform="matrix(0.9833 0 0 1 1766.5234 1027.6816)" class="st2 st3 st17">pi63on.github.io</text>
+	<rect x="1494.7" y="933.6" class="st5" width="402.6" height="42"/>
+	<text transform="matrix(0.9833 0 0 1 1502.0313 947.083)" class="st2 st3 st17">Vďaka Dr. Andrejovi Mosatovi a myspectral.com </text>
+	<text transform="matrix(0.9833 0 0 1 1591.6104 969.6836)" class="st2 st3 st17">za zapožičanie spektrometra Luminy.</text>
+</g>
+<image style="overflow:visible;enable-background:new    ;" width="925" height="1025" xlink:href="89BC285C.png"  transform="matrix(0.173 0 0 0.1759 1558.3567 258.7456)">
+</image>
+<image style="overflow:visible;enable-background:new    ;" width="583" height="824" xlink:href="89BC285F.png"  transform="matrix(0.1738 0 0 0.1768 1630.9918 219.2022)">
+</image>
+<g>
+	<text transform="matrix(0.9833 0 0 1 1806.2002 484.0508)" class="st2 st3 st18">k mape</text>
+</g>
+<line class="st15" x1="1484.1" y1="18.2" x2="1484.1" y2="1061.8"/>
+<g id="buttons">
+	<text transform="matrix(0.9833 0 0 1 1652.8945 40.5527)" class="st19 st3 st20">vysvetlivky</text>
+	<text transform="matrix(0.9833 0 0 1 1794.3389 40.5527)" class="st19 st3 st20">k mape</text>
+	<text transform="matrix(0.9833 0 0 1 1542.2881 40.5527)" class="st19 st3 st20">English</text>
+</g>
+<rect x="42.3" y="909.8" class="st5" width="1427.6" height="141.7"/>
+<text transform="matrix(0.9833 0 0 1 42.3 921.258)"><tspan x="0" y="0" class="st2 st3 st6">Svetlo z nich sa preto pre oko javí ako silne oranžové. Pre pouličné osvetlenie sa používajú vysokotlakové verzie s prímesami, pre lepší štart a lepšiu viditeľnosť, ktoré k oranžovému “double peak-u” </tspan><tspan x="0" y="19.2" class="st2 st3 st6">dopĺňajú aj iné menšie vrcholy spektra. Aj s rozšíreným spektrom však produkujú dištinktívne oranžové svetlo, ktoré je asociované s ulicami v noci.</tspan><tspan x="0" y="44.4" class="st2 st3 st6">Od roku 2024 sa v Bratislave postupne začalo s modernizáciou verejného osvetlenia a nahrádzania výbojiek, citujem k tomu Mesto Bratislava (bratislava.sk, 25.10.2025):</tspan><tspan x="0" y="69.6" class="st2 st3 st6">“V Petržalke sa nachádza viac ako 9 000 svetelných bodov, pričom vymenených tu bolo už viac ako 4 000 svietidiel. Aj v tejto mestskej časti prebieha od septembra masívnejšia modernizácia, počas ktorej </tspan><tspan x="0" y="88.8" class="st2 st3 st6">bude vymenených približne 5000 svietidiel a na jej konci bude celá mestská časť osvetlená LED svietidlami.”</tspan></text>
+<g>
+	<defs>
+		<rect id="SVGID_8_" x="42.3" y="741.6" width="359" height="150.4"/>
+	</defs>
+	<use xlink:href="#SVGID_8_"  style="overflow:visible;fill:#FFFFFF;"/>
+	<clipPath id="SVGID_9_">
+		<use xlink:href="#SVGID_8_"  style="overflow:visible;"/>
+	</clipPath>
+	<g transform="matrix(1 0 0 1 -3.814697e-06 -6.103516e-05)" style="clip-path:url(#SVGID_9_);enable-background:new    ;">
+		
+			<image style="overflow:visible;" width="4499" height="1885" xlink:href="89BC285F.jpg"  transform="matrix(7.980410e-02 0 0 7.980410e-02 42.3 741.5693)">
+		</image>
+	</g>
+	<use xlink:href="#SVGID_8_"  style="overflow:visible;fill:none;stroke:#FFFFFF;stroke-miterlimit:10;"/>
+</g>
+<g>
+	<defs>
+		<rect id="SVGID_10_" x="416.3" y="741.6" width="200.6" height="150.4"/>
+	</defs>
+	<clipPath id="SVGID_11_">
+		<use xlink:href="#SVGID_10_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#SVGID_11_);">
+		
+			<image style="overflow:visible;" width="320" height="240" xlink:href="DiffractionGratingDoublet-320x240.png"  transform="matrix(0.6268 0 0 0.6268 416.3379 741.5693)">
+		</image>
+	</g>
+	<use xlink:href="#SVGID_10_"  style="overflow:visible;fill:none;stroke:#FFFFFF;stroke-miterlimit:10;"/>
+</g>
+<g>
+	<rect x="629.9" y="818.1" class="st5" width="282.2" height="31.4"/>
+	<text transform="matrix(0.9927 0 0 1 629.9355 828.1537)"><tspan x="0" y="0" class="st2 st12 st13">obr. 4 a 5, experimentálne meranie spektra </tspan><tspan x="0" y="16.8" class="st2 st12 st13">nízkotlakovej sodíkovej výbojky</tspan></text>
+</g>
+<g>
+	<rect x="629.9" y="856.3" class="st5" width="538" height="58.7"/>
+	<text transform="matrix(0.9927 0 0 1 629.9356 866.3319)"><tspan x="0" y="0" class="st2 st12 st13">(z University College Cork, 3rd year laboratory webpage, </tspan><tspan x="0" y="16.8" class="st2 st12 st13">www.ucc.ie/en/physics/study/undergraduate/thelaboratories/thirdyearphysicslab/)</tspan></text>
+</g>
+<text transform="matrix(0.9927 0 0 1 42.3002 1069.4589)" class="st2 st12 st13">Práca bola vytvorená bez použitia AI</text>
+</svg>
