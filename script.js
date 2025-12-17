@@ -392,7 +392,7 @@ function draw() {
         // console.log('animating again');
         addStep();
     }
-    if ((selfAnimation > (40 * 10)) && (document.getElementById("main-container") == "block")) {
+    if ((selfAnimation > (40 * 20)) && (document.getElementById("main-container") == "block")) {
         showSplash();
     }
     
