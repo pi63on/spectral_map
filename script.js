@@ -38,7 +38,7 @@ let svg = d3.select("#svganchor")
 //     .attr("cy", (d) => { return projection([+d.X, +d.Y])[1] })
 
 //     // radius of circle
-//     .attr("r", 2)
+//     .attr("r", 4)
 //     // id of each circle
 //     // .attr("id", (d) => {return "s_"+d.video})
 //     .attr("id", function(d,i) {return "cir" + i})
@@ -78,7 +78,7 @@ svg
     .attr("cx", (d) => { return projection([+d.X, +d.Y])[0] })
     .attr("cy", (d) => { return projection([+d.X, +d.Y])[1] })
 
-    .attr("r", 2)
+    .attr("r", 4)
     .attr("id", function(d,i) {return "m2" + "cir" + i})
     .attr("stroke-width", 0)
     .attr("fill", '#ffffffff')
@@ -93,7 +93,7 @@ svg
     .on('mouseout', function (d) {
         d3.select(this).transition()
         .duration('200')
-        .attr("r", 2)
+        .attr("r", 4)
         .attr("fill", "white");
     })
     .on("click", function(d, i){
@@ -118,7 +118,7 @@ svg
     .attr("cx", (d) => { return projection([+d.X, +d.Y])[0] })
     .attr("cy", (d) => { return projection([+d.X, +d.Y])[1] })
 
-    .attr("r", 2)
+    .attr("r", 4)
     .attr("id", function(d,i) {return "m3" + "cir" + i})
     .attr("stroke-width", 0)
     .attr("fill", '#ffffffff')
@@ -133,7 +133,7 @@ svg
     .on('mouseout', function (d) {
         d3.select(this).transition()
         .duration('200')
-        .attr("r", 2)
+        .attr("r", 4)
         .attr("fill", "white");
     })
     .on("click", function(d, i){
