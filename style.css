@@ -9,6 +9,15 @@
     margin-bottom: 1em;
     margin-top: 1em;
 }
+#splashDiv{
+    position: absolute;
+}
+#splashSVG{
+    position: absolute;
+}
+#buttonsPannel{
+    position: absolute;
+}
 .st17{
     font-style: italic;
 }
@@ -17,9 +26,6 @@
 }
 .btn:hover{
     text-decoration: underline;
-}
-#splashDiv{
-    display: none;
 }
 p {
     color: white;

@@ -1,5 +1,5 @@
 function hideSplash() {
-  let x = document.getElementById("splashDiv");
+  let x = document.getElementById("splashSVG");
   
   if (x.style.display === "none") {
       x.style.display = "block";
