@@ -13,6 +13,9 @@
     display: block;
     /* position: absolute; */
 }
+#splashEng{
+    display: none;
+}
 #main-container{
     display: none;
     /* position:absolute; */

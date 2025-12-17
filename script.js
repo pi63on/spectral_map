@@ -389,7 +389,7 @@ function draw() {
 
     // 5 seconds waiting for splash screen
     if ((selfAnimation > (40*5)) && (frameCount % (40*3) == 0)) { // 3 seconds inbetween steps for animation
-        console.log('animating again');
+        // console.log('animating again');
         addStep();
     }
     if ((selfAnimation > (40 * 10))) {
@@ -412,17 +412,13 @@ function draw() {
     lastSeries = currentSeries;
 }
 
-function mousePressed(){
-    console.log(currentSeries, currentId);
-}
-
 function keyPressed(){
-    console.log(currentSeries, currentId);
+    // console.log(currentSeries, currentId);
   if (key == ' '){
     selfAnimation = !selfAnimation;
   }
   if (key == 'f') {
-    console.log('fis');
+    // console.log('fis');
     let fs = fullscreen();
     fullscreen(!fs);
   }
@@ -476,17 +472,19 @@ function subtractStep(){
 function hideSplash() {
   let x = document.getElementById("splashSVG");
   x.style.display = "none";
-
   let mapa = document.getElementById("main-container");
   mapa.style.display = "block";
+  let english = document.getElementById("splashEng");
+  english.style.display = "none";
 }
 
 function showSplash() {
   let x = document.getElementById("splashSVG");
   x.style.display = "block";
-
   let mapa = document.getElementById("main-container");
   mapa.style.display = "none";
+  let english = document.getElementById("splashEng");
+  english.style.display = "none";
 }
 
 function showEnglish(){
@@ -494,6 +492,14 @@ function showEnglish(){
   x.style.display = "none";
   let mapa = document.getElementById("main-container");
   mapa.style.display = "none";
-  let english = document.getElementById("engSVG");
+  let english = document.getElementById("splashEng");
   english.style.display = "block";
 }
+// function showSk(){
+//   let x = document.getElementById("splashSVG");
+//   x.style.display = "block";
+//   let mapa = document.getElementById("main-container");
+//   mapa.style.display = "none";
+//   let english = document.getElementById("splashEng");
+//   english.style.display = "none";
+// }
