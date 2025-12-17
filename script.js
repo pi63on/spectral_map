@@ -392,7 +392,7 @@ function draw() {
         // console.log('animating again');
         addStep();
     }
-    if ((selfAnimation > (40 * 10))) {
+    if ((selfAnimation > (40 * 10)) && (document.getElementById("main-container") == "block")) {
         showSplash();
     }
     
@@ -470,6 +470,7 @@ function subtractStep(){
 
 
 function hideSplash() {
+    selfAnimation = 0;
   let x = document.getElementById("splashSVG");
   x.style.display = "none";
   let mapa = document.getElementById("main-container");
@@ -479,6 +480,7 @@ function hideSplash() {
 }
 
 function showSplash() {
+    selfAnimation = 0;
   let x = document.getElementById("splashSVG");
   x.style.display = "block";
   let mapa = document.getElementById("main-container");
@@ -488,6 +490,7 @@ function showSplash() {
 }
 
 function showEnglish(){
+    selfAnimation = 0;
   let x = document.getElementById("splashSVG");
   x.style.display = "none";
   let mapa = document.getElementById("main-container");
